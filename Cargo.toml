@@ -1,0 +1,24 @@
+[workspace]
+members = ["crates/blast-core", "crates/blast-db", "crates/blast-cpu", "crates/blast-format", "crates/blast-cli", "crates/blast-gpu"]
+default-members = ["crates/blast-cli"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.90"
+
+[workspace.dependencies]
+blast-core = { path = "crates/blast-core" }
+blast-db = { path = "crates/blast-db" }
+blast-cpu = { path = "crates/blast-cpu" }
+blast-format = { path = "crates/blast-format" }
+clap = { version = "4.5", features = ["derive"] }
+rayon = "1.11"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+memmap2 = "0.9"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

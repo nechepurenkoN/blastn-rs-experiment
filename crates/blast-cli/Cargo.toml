@@ -1,0 +1,27 @@
+[package]
+name = "blast-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+blast-core.workspace = true
+blast-db.workspace = true
+blast-cpu.workspace = true
+blast-format.workspace = true
+clap.workspace = true
+serde_json.workspace = true
+blast-gpu = { path = "../blast-gpu", optional = true }
+
+[features]
+gpu = ["dep:blast-gpu"]
+
+[[bin]]
+name = "blastn-rs"
+path = "src/bin/blastn.rs"
+[[bin]]
+name = "makedb-rs"
+path = "src/bin/makedb.rs"
+[[bin]]
+name = "dbcmd-rs"
+path = "src/bin/dbcmd.rs"

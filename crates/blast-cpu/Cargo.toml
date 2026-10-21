@@ -1,0 +1,11 @@
+[package]
+name = "blast-cpu"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+blast-core.workspace = true
+blast-db.workspace = true
+rayon.workspace = true
+

@@ -1,0 +1,11 @@
+[package]
+name = "blast-gpu"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+blast-core.workspace = true
+wgpu = "27.0"
+pollster = "0.4"
+

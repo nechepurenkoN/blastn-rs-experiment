@@ -1,0 +1,14 @@
+exact	a_last	100.000	80	0	0	1	80	1	80	8.10e-43	155
+exact	two_hsps	100.000	80	0	0	1	80	1	80	8.10e-43	155
+exact	two_hsps	100.000	35	0	0	1	35	151	185	1.25e-16	68.4
+exact	z_first	100.000	80	0	0	1	80	1	80	8.10e-43	155
+exact	short	100.000	11	0	0	1	11	1	11	0.012	22.0
+reverse	z_reverse	100.000	93	0	0	1	93	93	1	2.60e-50	180
+reverse	z_reverse	100.000	12	0	0	70	81	13	24	0.004	23.9
+insertion	gap	96.000	125	0	1	1	120	1	125	7.87e-62	219
+low_complexity	low_complexity	100.000	157	0	0	1	157	1	157	2.59e-87	304
+short	short	100.000	11	0	0	1	11	1	11	0.001	22.0
+short	a_last	100.000	11	0	0	1	11	1	11	0.001	22.0
+short	two_hsps	100.000	11	0	0	1	11	1	11	0.001	22.0
+short	two_hsps	100.000	11	0	0	1	11	151	161	0.001	22.0
+short	z_first	100.000	11	0	0	1	11	1	11	0.001	22.0

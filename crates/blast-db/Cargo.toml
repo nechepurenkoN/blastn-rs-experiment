@@ -1,0 +1,10 @@
+[package]
+name = "blast-db"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+blast-core.workspace = true
+memmap2.workspace = true
+
